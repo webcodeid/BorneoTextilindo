@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="CV Borneo Textilindo favicon">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#00B7E8"/>
+      <stop offset="100%" stop-color="#FF3FB4"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#081121"/>
+  <circle cx="94" cy="28" r="14" fill="#92FFED" opacity="0.75"/>
+  <path d="M28 34h28c20 0 34 12 34 30S76 94 56 94H28z" fill="url(#bg)"/>
+  <path d="M45 47h11c10 0 18 6 18 16s-8 16-18 16H45z" fill="#081121" opacity="0.85"/>
+</svg>

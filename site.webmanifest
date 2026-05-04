@@ -1,0 +1,23 @@
+{
+  "name": "CV Borneo Textilindo",
+  "short_name": "Borneo Textilindo",
+  "description": "Konveksi, seragam, jersey, bordir, sablon, dan textile printing di Samarinda.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#07101F",
+  "theme_color": "#00B7E8",
+  "icons": [
+    {
+      "src": "assets/img/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/img/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

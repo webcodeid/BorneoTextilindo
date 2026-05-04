@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Preview CV Borneo Textilindo">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#07101F"/>
+      <stop offset="50%" stop-color="#121D40"/>
+      <stop offset="100%" stop-color="#081121"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#00B7E8"/>
+      <stop offset="100%" stop-color="#FF3FB4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="170" cy="120" r="120" fill="#FF3FB4" opacity="0.15"/>
+  <circle cx="1080" cy="510" r="170" fill="#00B7E8" opacity="0.12"/>
+  <rect x="70" y="70" width="1060" height="490" rx="38" fill="#0D1630" fill-opacity="0.78" stroke="#6FC1FF" stroke-opacity="0.22"/>
+  <rect x="100" y="105" width="112" height="112" rx="28" fill="url(#accent)"/>
+  <path d="M129 135h24c17 0 29 11 29 27s-12 27-29 27h-24z" fill="#081121" opacity="0.88"/>
+  <text x="250" y="160" fill="#F2F6FF" font-size="36" font-family="Sora, Arial, sans-serif" font-weight="700">CV Borneo Textilindo</text>
+  <text x="250" y="208" fill="#BED2EF" font-size="22" font-family="Sora, Arial, sans-serif">Konveksi, seragam, jersey, bordir, sablon, dan textile printing di Samarinda.</text>
+  <text x="100" y="310" fill="#F2F6FF" font-size="64" font-family="Sora, Arial, sans-serif" font-weight="700">Seragam yang terlihat kuat.</text>
+  <text x="100" y="384" fill="#F2F6FF" font-size="64" font-family="Sora, Arial, sans-serif" font-weight="700">Produksi yang terasa rapi.</text>
+  <text x="100" y="448" fill="#BED2EF" font-size="26" font-family="Sora, Arial, sans-serif">Siap untuk institusi, sekolah, perusahaan, dan organisasi.</text>
+  <rect x="100" y="492" width="280" height="54" rx="27" fill="url(#accent)"/>
+  <text x="140" y="527" fill="#081121" font-size="24" font-family="Chakra Petch, Arial, sans-serif" font-weight="700">Konsultasi via WhatsApp</text>
+  <rect x="830" y="220" width="220" height="170" rx="30" fill="#131D3B" stroke="#6FC1FF" stroke-opacity="0.18"/>
+  <rect x="865" y="250" width="150" height="95" rx="26" fill="url(#accent)"/>
+  <rect x="792" y="405" width="290" height="92" rx="26" fill="#101834" stroke="#6FC1FF" stroke-opacity="0.18"/>
+  <text x="826" y="446" fill="#92FFED" font-size="22" font-family="Chakra Petch, Arial, sans-serif">END-TO-END</text>
+  <text x="826" y="476" fill="#BED2EF" font-size="20" font-family="Sora, Arial, sans-serif">pattern to finishing</text>
+</svg>
