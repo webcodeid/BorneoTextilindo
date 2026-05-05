@@ -562,6 +562,28 @@ h3 {
   overflow: hidden;
 }
 
+.portfolio-art::after,
+.showcase-art::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(8, 0, 15, 0.08) 0%, rgba(8, 0, 15, 0.38) 100%);
+  pointer-events: none;
+}
+
+.portfolio-art img {
+  width: 100%;
+  min-height: 220px;
+  object-fit: cover;
+  object-position: center;
+  transform: scale(1.01);
+  transition: transform 260ms ease;
+}
+
+.portfolio-card:hover .portfolio-art img {
+  transform: scale(1.05);
+}
+
 .portfolio-art span { position: absolute; display: block; }
 
 .art-fieldwear {
@@ -727,6 +749,19 @@ h3 {
   position: relative;
   min-height: 260px;
   overflow: hidden;
+}
+
+.showcase-art img {
+  width: 100%;
+  min-height: 260px;
+  object-fit: cover;
+  object-position: center;
+  transform: scale(1.01);
+  transition: transform 260ms ease;
+}
+
+.showcase-card:hover .showcase-art img {
+  transform: scale(1.05);
 }
 
 .showcase-art span { position: absolute; display: block; }
