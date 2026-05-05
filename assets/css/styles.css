@@ -1096,14 +1096,32 @@ h3 {
 }
 
 .creator-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  margin-left: 6px;
+  border-radius: 50%;
   color: var(--cyan);
-  font-weight: 500;
-  text-decoration: underline;
-  text-underline-offset: 0.16em;
+  border: 1px solid rgba(0, 183, 232, 0.35);
+  background: rgba(0, 183, 232, 0.08);
+  transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease, color 160ms ease;
 }
 
 .creator-link:hover,
-.creator-link:focus-visible { color: #ffffff; }
+.creator-link:focus-visible {
+  color: #ffffff;
+  transform: translateY(-1px);
+  border-color: var(--cyan);
+  box-shadow: 0 0 14px rgba(0, 183, 232, 0.45);
+}
+
+.creator-link svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
 
 .sticky-wa {
   position: fixed;
